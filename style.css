@@ -76,4 +76,96 @@ ul {
     font-size: 18px;
 }
 
+.two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.two-header {
+    color: #1f2937;
+    font-size: 32px;
+    font-weight: bolder;
+    margin: 48px;
+}
+
+.two-cards {
+    display: flex;
+    gap: 48px;
+    margin-bottom: 96px;
+}
+
+.three {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+
+.three-quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    width: 300px;
+}
+
+.three-thor {
+    color:#1f2937;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: end;
+    width: 300px;
+}
+
+.four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.four-box {
+    background-color: #3882F6;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.four-box-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.four-box-text-top {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.four-box-text-bottom {
+    color: #E5E7EB;
+    font-size: 16px;
+}
+
+.four-box-button {
+    color: #F9FAF8;
+    border: #F9FAF8;
+    font-size: 24px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-text {
+    color: #E5E7EB;
+    font-size: 16px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
