@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px 96px;
+    padding: 8px 200px;
 }
 
 .header-text {
@@ -19,17 +19,22 @@
 .header-links {
     color: #E5E7EB;
     font-size: 18px;
-    text-decoration: none;
     display: flex;
-    gap: 8px;
+    gap: 16px;
 }
 
 ul {
     list-style-type: none;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
 }
 
 .one {
-    padding: 64px 96px;
+    padding: 64px 200px;
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
@@ -39,6 +44,7 @@ ul {
 .one-left {
     display: flex;
     flex-direction: column;
+    width: 400px;
 }
 
 .one-left-top {
@@ -60,18 +66,22 @@ ul {
     display: inline-block;
     font-size: 24px;
     font-weight: bold;
+    width: 150px;
+    margin-top: 8px;
+    border-radius: 16px;
+    border: none;
 }
 
 .one-right {
-    background-color: #E5E7EB;
-    width: 200px;
-    height: 100px;
+    background-color: #8a95aa;
+    width: 500px;
+    height: 225px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.one-right-text {
+.one-placeholder {
     color: #E5E7EB;
     font-size: 18px;
 }
@@ -89,16 +99,31 @@ ul {
     margin: 48px;
 }
 
-.two-cards {
+.two-body {
     display: flex;
-    gap: 48px;
+    gap: 50px;
     margin-bottom: 96px;
+}
+
+.two-card {
+    width: 150px;
+}
+
+img {
+    width: 150px;
+    height: auto;
+}
+
+.text {
+    text-align: center;
+    font-size: 16px;
 }
 
 .three {
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
+    align-items: center;
 }
 
 .three-quote {
@@ -106,7 +131,8 @@ ul {
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
-    width: 300px;
+    width: 750px;
+    margin-top: 125px;
 }
 
 .three-thor {
@@ -115,23 +141,25 @@ ul {
     font-weight: bold;
     display: flex;
     justify-content: end;
-    width: 300px;
+    width: 750px;
+    margin-bottom: 98px;
 }
 
 .four {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 100px 200px;
 }
 
 .four-box {
     background-color: #3882F6;
-    width: 300px;
-    height: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 50px;
+    padding: 50px 100px;
+    flex: 1;
+    border-radius: 25px;
 }
 
 .four-box-text {
@@ -155,6 +183,21 @@ ul {
     border: #F9FAF8;
     font-size: 24px;
     text-align: center;
+}
+
+.four-button {
+    background-color: transparent;
+    color: #F9FAF8;
+    padding: 8px 24px;
+    text-align: center;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    width: 150px;
+    margin-top: 8px;
+    border-radius: 16px;
+    border-color: #F9FAF8;
+    border-width: 4px;
 }
 
 .footer {
